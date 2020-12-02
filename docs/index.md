@@ -97,16 +97,19 @@ def read_data_from_file(file_name):
 
 ## III.	Running the Code
 To run the code, I first tested Part 1 (Error Handling) in Pycharm. The first image below demonstrates the program catching Error 1 (Type Error) where the snacks cannot be easily divided. The second image below catches Error 2 (ZeroDivisionError) where there are no people to divide the snacks amongst. 
- 
- 
- 
-After testing the error, I entered value for the number of people and number of snacks that would not return any errors. I then moved onto Part 2 of the program. I entered the names and number of snacks each person had. The program stored and extracted this dictionary of data to a binary file and extracted and printed the results. This full fun is shown in Figure 8. An image of the binary file is shown in Figure 9.
- 
- 
 
-After testing the code in PyCharm, I then ran the same program in the command console to verify it can be run from there as well. The program can be seen running in Figure 10 and the binary file can be seen in Figure 11. 
+ ![Error 1](https://github.com/steptar/IntroToProg-Python-Mod07/blob/docs/docs/PyCharm_Error1.png "Error 1")   
+ ![Error 2](https://github.com/steptar/IntroToProg-Python-Mod07/blob/docs/docs/PyCharm_Error2.jpg "Error 2")   
  
-
+After testing the error, I entered value for the number of people and number of snacks that would not return any errors. I then moved onto Part 2 of the program. I entered the names and number of snacks each person had. The program stored and extracted this dictionary of data to a binary file and extracted and printed the results. This full run is shown in the first image below. An image of the binary file is shown in the second image below.   
+ 
+  ![PyCharm Run](https://github.com/steptar/IntroToProg-Python-Mod07/blob/docs/docs/PyCharmRun_Assignment07.jpg "PyCharm Run")   
+  ![PyCharm Binary](https://github.com/steptar/IntroToProg-Python-Mod07/blob/docs/docs/PyCharm_BinaryFile.jpg "PyCharm Binary")   
+ 
+After testing the code in PyCharm, I then ran the same program in the command console to verify it can be run from there as well. The program can be seen running in the first image below and the binary file can be seen in the second.   
+ 
+![CMD Run](https://github.com/steptar/IntroToProg-Python-Mod07/blob/docs/docs/CMDRun_Assignment07.jpg "CMD Run")   
+![CMD Binary](https://github.com/steptar/IntroToProg-Python-Mod07/blob/docs/docs/CMD_BinaryFile.jpg "CMD Binary")    
  
 ## Summary
 To complete this assignment, I performed additional research on the internet to get more information on error handling and pickling. I created a program that demonstrated both concepts in one script. For Part 1 of the program I performed a basic division operation and used a if/else statement to raise an error and  used a standard error. Part 2 of the program stored and extracted binary data using pickle.dump() and pickle.load(). 
